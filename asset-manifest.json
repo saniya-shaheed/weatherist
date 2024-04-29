@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/weatherist/static/css/main.49e6318f.css",
-    "main.js": "/weatherist/static/js/main.b4796e1d.js",
+    "main.js": "/weatherist/static/js/main.c1e9d52d.js",
     "index.html": "/weatherist/index.html",
     "main.49e6318f.css.map": "/weatherist/static/css/main.49e6318f.css.map",
-    "main.b4796e1d.js.map": "/weatherist/static/js/main.b4796e1d.js.map"
+    "main.c1e9d52d.js.map": "/weatherist/static/js/main.c1e9d52d.js.map"
   },
   "entrypoints": [
     "static/css/main.49e6318f.css",
-    "static/js/main.b4796e1d.js"
+    "static/js/main.c1e9d52d.js"
   ]
 }
