@@ -7,10 +7,9 @@ import Dashboard from './Components/Dashboard';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/weatherist'>
       <Routes>
       <Route path="/" element={<Home />} />
-          <Route index element={<Home />} />
           <Route path="dashboard" element={<Dashboard />} />
           </Routes>
           </BrowserRouter>
