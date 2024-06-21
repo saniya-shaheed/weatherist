@@ -1,202 +1,198 @@
-body  {
-    background-image: linear-gradient(lightblue, rgb(41, 130, 185));
-    height: 100%;
-} 
-   
- .intro-left {
-    background-color: rgba(208, 237, 252, 0.579);
-    height: 50vh;
+body {
+  background-image: linear-gradient(lightblue, rgb(41, 130, 185));
+  height: 100%;
+}
+
+/* HOME */
+.intro-left {
+  background-color: rgba(208, 237, 252, 0.579);
+  height: 50vh;
 }
 
 .home-section {
-    height: 100vh;
+  height: 100vh;
 }
 
-
+/* SIDEBAR */
 .sidebar img {
-    height: 1.5rem;
-} 
+  height: 1.5rem;
+}
 
 .sidebar svg {
-    height: 1rem;
-    fill: rgb(16, 61, 76);
+  height: 1rem;
+  fill: rgb(16, 61, 76);
 }
 
+/* SEARCHBAR */
 .search-bar input {
-    height: 25px;
+  height: 25px;
 }
 
+/* WEATHER */
 .current-weather img {
-    height: 150px;
+  height: 150px;
 }
 
 .air-conditions svg {
-    height: 15px;
+  height: 15px;
 }
 
 .air-conditions button {
-    height: 20px;
-    width: 93px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    background-color: rgb(43, 111, 134);
+  height: 20px;
+  width: 93px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgb(43, 111, 134);
 }
 
 .air-conditions span {
-    text-align: right;
+  text-align: right;
 }
 
 .hourly-forecast span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
+/* CITIES */
 .cities-ul li {
-    list-style: none;
-    background-color: #fff;
-    border-radius: 10px;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
 }
 .cities-ul li:hover {
-    cursor: pointer;
-    border: 5px rgb(54, 138, 159) solid;
+  cursor: pointer;
+  border: 5px rgb(54, 138, 159) solid;
 }
 
 .cities-ul li:active {
-    border: 5px rgb(54, 138, 159) solid;   
+  border: 5px rgb(54, 138, 159) solid;
 }
 
 .city-info-heading {
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .city-info-heading h2 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .city-info-heading h1 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .city-info-heading img {
-    height: 100px;
+  height: 100px;
 }
 
 .extra-city-info p {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cities-svg svg {
-    height:15px;
+  height: 15px;
 }
 
+/* SETTINGS */
 .form-check {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .settings-section {
-    background-color: rgb(179, 218, 228);
+  background-color: rgb(179, 218, 228);
 }
 
 .settings-heading {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .units-heading {
-    font-weight: bold;
-    color: rgb(64, 57, 57);
+  font-weight: bold;
+  color: rgb(64, 57, 57);
 }
 
 .form-check {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .btn-outline-primary {
-    border-color: rgb(26, 69, 101);
-    color: rgb(26, 69, 101);
+  border-color: rgb(26, 69, 101);
+  color: rgb(26, 69, 101);
 }
-
 
 @media only screen and (min-width: 413px) {
-    .daily-details {
-        height: 75px;
-    }
+  .daily-details {
+    height: 75px;
+  }
 }
-
 
 @media only screen and (min-width: 417px) and (max-width: 768px) {
-    .intro-left img {
-        height: 100px;
-        width: 100px;
-    }
+  .intro-left img {
+    height: 100px;
+    width: 100px;
+  }
 }
-
 
 @media only screen and (max-width: 576px) {
-    .sidebar-height {
-        height: 50px;
-    }
+  .sidebar-height {
+    height: 50px;
+  }
 }
-
 
 @media only screen and (min-width: 576px) {
+  .sidebar-height {
+    height: 100%;
+    justify-content: center;
+  }
 
-    .sidebar-height {
-        height: 100%;
-        justify-content: center;
-    }
+  .sidebar ul {
+    width: 100%;
+  }
 
-    .sidebar ul {
-        width: 100%;
-    }
+  .sidebar-height-adjustment {
+    height: 200px;
+  }
 
-    .sidebar-height-adjustment {
-        height: 200px;
-    }
+  .hourly-forecast {
+    display: flex;
+    align-items: center;
+  }
 
-    .hourly-forecast {
-        display: flex;
-        align-items: center;
-    }
+  .hourly-forecast img {
+    height: 80px;
+    width: 70px;
+  }
 
-    .hourly-forecast img {
-        height: 80px;
-        width: 70px;
-    }
-
-    .daily-forecast {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-    
+  .daily-forecast {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
 }
 
+@media only screen and (min-width: 768px) {
+  .intro-left,
+  .intro-right {
+    height: 90vh;
+  }
+  .hourly-forecast {
+    flex-direction: column;
+  }
 
-@media only screen and (min-width: 768px)  {
-    
-    
-    .intro-left, .intro-right {
-        height: 90vh;
-    }
-    .hourly-forecast {
-        flex-direction: column;
-    }
+  .hourly-forecast span {
+    width: 100%;
+  }
 
-    .hourly-forecast span {
-        width: 100%;
-    }
-
-    .hourly-time {
-        width: 100%;
-        font-weight: bold;
-    }
-    
+  .hourly-time {
+    width: 100%;
+    font-weight: bold;
+  }
 }
